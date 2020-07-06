@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#773851B9"
+    tools:context=".TheorySubjectAdding">
+
+    <EditText
+        android:id="@+id/SC6ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SN6ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN6ET" />
+
+    <EditText
+        android:id="@+id/SC5ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SN5ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN5ET" />
+
+    <EditText
+        android:id="@+id/SC4ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/SC5ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN4ET" />
+
+    <EditText
+        android:id="@+id/LC3ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/SC4ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN3ET" />
+
+    <EditText
+        android:id="@+id/LC2ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SN2ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN2ET" />
+
+    <EditText
+        android:id="@+id/LC1ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Sub Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SN1ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SN1ET" />
+
+    <EditText
+        android:id="@+id/SN6ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/SC6ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN5ET" />
+
+    <EditText
+        android:id="@+id/SN5ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/SC5ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN4ET" />
+
+    <EditText
+        android:id="@+id/SN4ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/SC4ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN3ET" />
+
+    <EditText
+        android:id="@+id/SN3ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/LC3ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN2ET" />
+
+    <EditText
+        android:id="@+id/SN2ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/LC2ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN1ET" />
+
+    <EditText
+        android:id="@+id/SN1ET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Sub Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/LC1ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="26dp"
+        android:text="Enter Theory Paper"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SvCntnBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="Save and Continue"
+        app:layout_constraintEnd_toStartOf="@+id/CnclBTN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SN6ET" />
+
+    <Button
+        android:id="@+id/CnclBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SvCntnBTN"
+        app:layout_constraintTop_toBottomOf="@+id/SC6ET" />
+</android.support.constraint.ConstraintLayout>

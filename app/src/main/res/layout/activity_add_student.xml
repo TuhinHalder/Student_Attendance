@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#773851B9"
+    tools:context=".AddStudent">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Select Session"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="@+id/SsnSPNR"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/SsnSPNR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/AtnBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="31dp"
+        android:enabled="true"
+        android:text="Next"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/SsnSPNR"
+        app:layout_constraintTop_toBottomOf="@+id/SsnSPNR" />
+
+    <Button
+        android:id="@+id/CnclBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="@android:string/cancel"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/SsnSPNR"
+        app:layout_constraintTop_toBottomOf="@+id/SsnSPNR" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectSelection">
+
+    <EditText
+        android:id="@+id/Lab4ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Lab 4"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/CnclBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Lab3ET"
+        app:layout_constraintTop_toBottomOf="@+id/Lab2ET" />
+
+    <EditText
+        android:id="@+id/Lab3ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Lab 3"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/SBTN"
+        app:layout_constraintEnd_toStartOf="@+id/Lab4ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab1ET" />
+
+    <EditText
+        android:id="@+id/Lab2ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Lab 2"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Lab4ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Lab1ET"
+        app:layout_constraintTop_toBottomOf="@+id/Sub6ET" />
+
+    <EditText
+        android:id="@+id/Sub6ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="81dp"
+        android:ems="10"
+        android:hint="Subject 6"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Lab2ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sub5ET"
+        app:layout_constraintTop_toBottomOf="@+id/Sub4ET" />
+
+    <EditText
+        android:id="@+id/Sub5ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:hint="Subject 5"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toStartOf="@+id/Sub6ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sub3ET" />
+
+    <EditText
+        android:id="@+id/Sub4ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Subject 4"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Sub6ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sub3ET"
+        app:layout_constraintTop_toBottomOf="@+id/Sub2ET" />
+
+    <EditText
+        android:id="@+id/Sub3ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Subject 3"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Sub5ET"
+        app:layout_constraintEnd_toStartOf="@+id/Sub4ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sub1ET" />
+
+    <EditText
+        android:id="@+id/Sub2ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Subject 2"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Sub4ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sub1ET"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="15dp"
+        android:text="Enter Theory Paper"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Sub1ET"
+        app:layout_constraintStart_toStartOf="@+id/Sub1ET"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Sub1ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Subject 1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Sub3ET"
+        app:layout_constraintEnd_toStartOf="@+id/Sub2ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="Enter Practical Paper"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Lab1ET"
+        app:layout_constraintStart_toStartOf="@+id/Lab1ET"
+        app:layout_constraintTop_toBottomOf="@+id/Sub5ET" />
+
+    <EditText
+        android:id="@+id/Lab1ET"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Lab 1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Lab3ET"
+        app:layout_constraintEnd_toStartOf="@+id/Lab2ET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/SBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="40dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CnclBTN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab3ET" />
+
+    <Button
+        android:id="@+id/CnclBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="40dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SBTN"
+        app:layout_constraintTop_toBottomOf="@+id/Lab4ET" />
+</android.support.constraint.ConstraintLayout>

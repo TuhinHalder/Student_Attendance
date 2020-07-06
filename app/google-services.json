@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473027717280",
+    "firebase_url": "https://sams-33bf7.firebaseio.com",
+    "project_id": "sams-33bf7",
+    "storage_bucket": "sams-33bf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473027717280:android:ba39096020d754e2",
+        "android_client_info": {
+          "package_name": "com.example.asimg.sams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473027717280-lqhurlgegckmj8vi2vo385gp1o0uhhgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asimg.sams",
+            "certificate_hash": "291622e114bf79b942efe4d6a07a9fbac0176b31"
+          }
+        },
+        {
+          "client_id": "473027717280-a31ij0qbcpsbt2l49663vds0f17ugdm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCCY3mQl_q_U-qYOkkTlbcXzHHpzskkiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473027717280-a31ij0qbcpsbt2l49663vds0f17ugdm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
